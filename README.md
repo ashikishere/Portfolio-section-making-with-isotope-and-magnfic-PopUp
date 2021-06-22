@@ -1,5 +1,4 @@
 
-### Hi there, I'm Ashikur Zaman - aka [AZ Ashik][facebook]
 ## Filtering Portfolio section using Bootstrap and Isotope with Modal
 
 I Make a Filtering Section Using Isotope Js Plugin And I Also Modal Using Bootstrap. If Anyone Need To To Use This Just Download The Files
@@ -30,8 +29,12 @@ Install Is very easy
   1.Download all file or clone the Repositorie
   2.Added all css and js file to your project
 ```
- If you need more customization or change animation check the doc file of isotope   
-[ISOTOPE JS][isotope]
+ If you need more customization or change animation check the doc file of isotope js  
+<br />
+ **➡  [ISOTOP JS DOCS](https://isotope.metafizzy.co/)**
+ <br/>
+  <br/>
+  **➡  [BOOTSTARP](https://getbootstrap.com/docs/5.0/getting-started/introduction/)**
 
 ## Make with
 
@@ -42,7 +45,20 @@ Install Is very easy
 - Bootstrap
 - Isotope JS
 
-<br/> 
+### Connect with me:
+
+[<img align="left" alt="mywebsite" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt="ashikishere | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
+[<img align="left" alt="ashikishere | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/facebook.svg" />][youtube]
+[<img align="left" alt="ashikishere | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="ashikishere | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+
 <br />
+<br />
+<br />
+
+[website]: https://ashikishere.live/
 [facebook]: https://www.facebook.com/Azashikishere
-[isotope]: https://isotope.metafizzy.co/ 
+[twitter]: https://twitter.com/Azashikishere
+[youtube]: https://www.youtube.com/channel/UCgplHPOwXES79fhaNC2C75w
+[instagram]: https://www.instagram.com/azashikishere/
