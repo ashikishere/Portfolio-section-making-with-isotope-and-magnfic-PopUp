@@ -1,7 +1,7 @@
 
 ## Filtering Portfolio section using Bootstrap and Isotope with Modal
 
-I Make a Filtering Section Using Isotope Js Plugin And I Also Modal Using Bootstrap. If Anyone Need To To Use This Just Download The Files
+I Make a Filtering Section Using Isotope Js Plugin And I Also  added Modal  Using Bootstrap. If Anyone Need To To Use This Just Download The Files
 
 
 ## Screenshots
