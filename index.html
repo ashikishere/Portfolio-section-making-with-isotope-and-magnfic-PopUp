@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Section Design</title>
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet" />
+    <!-- font awesome 5 pro -->
+    <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@0ac23ca/css/all.css" rel="stylesheet"
+        type="text/css" />
+    <!-- BOOTSTRAP CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="tiltle text-center">
+                        <h1>MAKING PORTFOLIO WITH MODAL USING BOOTSTRAP AND Isotope</h1>
+                        <ul class="social-media">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <h2>portfolio Section</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="project-name">
+                        <li class="active" data-filter="*">All</li>
+                        <li data-filter=".app-design">App design</li>
+                        <li data-filter=".webd">web design</li>
+                        <li data-filter=".uid">Ui design</li>
+                        <li data-filter=".photo">photoshop</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row project-show">
+                <div class="col-md-4 app-design webd">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio1.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-1"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 app-design">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio2.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-2"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 app-design uid">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio3.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-3"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 app-design uid webd">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio4.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-4"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 photo">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio5.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-5"></i></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 photo">
+                    <div class="portfolio-items mb-4">
+                        <img src="images/portfolio5.png" alt="">
+                        <div class="hover">
+                            <span><i class="far fa-plus-circle" data-bs-toggle="modal"
+                                    data-bs-target="#portfolio-modal-6"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal for all -->
+    <!-- 1 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-1" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-2" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-3" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 4 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-4" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 5 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-5" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio5.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 6 -->
+    <div class="portfolio-modal modal fade" id="portfolio-modal-6" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Project Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <img src="images/portfolio6.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- BOOT STRAP JS BUNDLE CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- isotop js -->
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- isotop customize -->
+    <script>
+        $(document).ready(function () {
+            // init Isotope
+            var $grid = $('.project-show').isotope({
+                // options
+            });
+            // filter items on button click
+            $('.project-name').on('click', 'li', function () {
+                var filterValue = $(this).attr('data-filter');
+                $grid.isotope({ filter: filterValue });
+            });
+            // filter items on button active
+            $('.project-name').on('click', 'li', function () {
+                var filterValue = $(this).attr('data-filter');
+                $(this).addClass('active').siblings().removeClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
