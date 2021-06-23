@@ -1,7 +1,7 @@
 
-## Filtering Portfolio section using Bootstrap and Isotope with Modal
+## Filtering Portfolio section using Bootstrap and Isotope And Magnific pop up js
 
-I Make a Filtering Section Using Isotope Js Plugin And I Also  added Modal  Using Bootstrap. If Anyone Need To To Use This Just Download The Files
+I Make a Filtering Section Using Isotope Js Plugin and Magnific POP . If Anyone Need To To Use This Just Download The Files
 
 
 ## Screenshots
@@ -44,6 +44,7 @@ Install Is very easy
 - CSS3
 - Bootstrap
 - Isotope JS
+- Magnific Pop Up
 
 ### Connect with me:
 
