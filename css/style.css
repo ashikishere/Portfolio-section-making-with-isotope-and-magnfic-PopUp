@@ -20,7 +20,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
 }
 body {
   font-size: 14px;
@@ -185,7 +184,6 @@ img {
   position: absolute;
   left: 50%;
   top: 50%;
-  /* border: 1px solid red; */
   transform: translate(-50%, -50%);
   z-index: 2;
   opacity: 0;
@@ -204,29 +202,10 @@ img {
   visibility: visible;
   transition: 0.5s;
 }
-
-/* modal */
-.modal-body img {
-  width: 100%;
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: pointer;
 }
-.modal-content {
-  background-color: transparent;
-  border: 1px solid #fff;
-  border-radius: 0px;
-  outline: 0;
-}
-.modal-header {
-  background: #fff;
-}
-.modal-title {
-  font-size: 18px;
-  line-height: 28px;
-  color: #333333;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
-
 @media (min-width: 100px) and (max-width: 480px) {
   .tiltle {
     padding-bottom: 20px;
